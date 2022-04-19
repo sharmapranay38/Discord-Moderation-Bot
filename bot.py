@@ -5,7 +5,7 @@ import discord
 from storage_management import StorageManagement
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-
+token = "ODMxMDY2NzQ3MTEyNTIxNzI4.YHP1OA.Qd1n3kicnrOrjAQB24qqiExjdWQ"
 
 class ModerationBot(discord.Client):
     def __init__(self):
